@@ -1,0 +1,71 @@
+.m-x-3 {
+  margin: 0px 3px 0px 3px;
+}
+
+.m-y-20 {
+  margin: 20px 0px;
+}
+
+.m-l-5 {
+  margin-left: 5px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.m-a-40 {
+  margin: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-space-around {
+  justify-content: space-around;
+}
+
+.btn-7f {
+  background-color: #c7b199;
+  color: #ffffff;
+  padding: 23px 33px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 23px 33px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.font_D3C3B4 {
+  color: #d3c3b4;
+}

@@ -1,0 +1,58 @@
+.marketing-section {
+  .mkt-container-1 {
+    background: url("../images/bg-gray.png");
+    height: 670px;
+    div {
+      margin: auto;
+      width: 950px;
+      text-align: center;
+      .mkt-title {
+        font-size: 40px;
+        color: #ffffff;
+        padding-top: 23%;
+      }
+      .mkt-subtitle {
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 38px 0px;
+      }
+    }
+  }
+
+  .mkt-container-2 {
+    background: url("../images/bg@1X.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 760px;
+
+    .mkt-bg-left {
+      background-color: #b2a08c;
+      width: 50%;
+      height: 100%;
+      opacity: 0.8;
+     
+      .mkt-pharma-title {
+        font-size: 26px;
+        padding-top: 33%;
+        text-transform: uppercase;
+        color: #000000;
+        margin: auto;
+        width: fit-content;
+      }
+
+      .mkt-pharma-subtitle {
+        font-size: 26px;
+        color: #ffffff;
+        margin: auto;
+        padding: 22px 0px;
+        width: fit-content;
+      }
+
+      .tool-download {
+        margin: auto;
+        width: fit-content;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Verdana, AdobeInvisFont, MyriadPro-Regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: Verdana, AdobeInvisFont, MyriadPro-Regular,
+    monospace;
+}
+
+/* ###### ScrollBar ###### */
+:root {
+  --scroll-bar-size: 10px;
+  --scroll-bar-thumb-background-color: rgba(0, 0, 0, 0.2);
+  --scroll-bar-thumb-background-color-active: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar {
+  width: var(--scroll-bar-size);
+  height: var(--scroll-bar-size);
+  background: 0 0;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar-thumb-background-color);
+  border-radius: var(--scroll-bar-size);
+  border-color: transparent;
+  border-style: solid;
+  border-width: calc(var(--scroll-bar-size) / 3);
+  background-clip: padding-box;
+}
+
+
+/* ####### Font Awesome ####### */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+/* ####### Header ####### */
+@import "./assets/scss/header.scss";
+
+/* ####### Marketing ####### */
+@import "./assets/scss/marketing.scss";
+
+/* ####### Services ####### */
+@import "./assets/scss/services.scss";
+
+/* ####### Testimony ####### */
+@import "./assets/scss/testimony.scss";
+
+/* ####### Events ####### */
+@import "./assets/scss/events.scss";
+
+/* ####### Blogs ####### */
+@import "./assets/scss/blogs.scss";
+
+/* ####### Footer ####### */
+@import "./assets/scss/footer.scss";
+
+/* ####### Utilities ####### */
+@import "./assets/scss/utils.scss";
+
+/* ####### Variables ####### */
+@import "./assets/scss/variables.scss";

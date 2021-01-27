@@ -1,0 +1,44 @@
+.services-container-wrapper {
+  background-color: #ffffff;
+}
+
+.services-container {
+  width: 950px;
+  margin: auto;
+  padding: 60px 0px;
+
+  .company-title {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  .services-title {
+    font-size: 20px;
+    margin: 26px 0px 40px 0px;
+    color: #e9a3a6;
+  }
+
+  .comp-services-content {
+    width: 315px;
+    margin: 0px 20px;
+    .services-content-title {
+      font-size: 20px;
+    }
+
+    .services-content-desc {
+      font-size: 15px;
+      color: #e9a3a6;
+      margin-top: 20px;
+    }
+  }
+
+  .comp-services-circle {
+    width: 116px;
+    height: 116px;
+    background-color: #e9a3a6;
+    border-radius: 50%;
+    img {
+      width: 90px;
+    }
+  }
+}

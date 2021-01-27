@@ -1,0 +1,40 @@
+.footer-container-wrapper {
+  background-color: #171717;
+  height: 485px;
+
+  .footer-title {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .input-group {
+    margin: 25px auto;
+    width: fit-content;
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
+    .email-box {
+      padding: 25px;
+      width: 265px;
+    }
+
+    .btn-subscribe {
+      padding: 26px;
+      border: none;
+      background-color: #b59877;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  .cp-rights {
+    color: #ffffff;
+    font-size: 14px;
+  }
+}

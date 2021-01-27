@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.header-container {
+  box-sizing: border-box;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 85px;
+
+  .header-logo {
+      cursor: pointer;
+  }
+
+  .scl-media-container {
+    display: flex;
+    .scl-media-box {
+      background-color: #c7b198;
+      width: 53px;
+      height: 53px;
+      border-radius: 50%;
+      img {
+        transform: translate(15px, 16px);
+      }
+      &:hover {
+        cursor: pointer;
+        color: #000000;
+      }
+    }
+  }
+
+  .header-menu {
+    color: $font_7F7F7F;
+    margin: 16px 16px 16px 34px;
+    cursor: pointer;
+  }
+}

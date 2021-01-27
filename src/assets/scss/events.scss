@@ -1,0 +1,47 @@
+.events-container-wrapper {
+  background-color: #ffffff;
+}
+
+.events-container {
+  padding: 80px 200px;
+
+  .event-title {
+    font-size: 36px;
+  }
+
+  .event-detail {
+    margin: 42px 0px;
+
+    .detailed-content {
+      margin-left: 40px;
+
+      .event-name {
+        font-size: 24px;
+        width: max-content;
+        text-overflow: ellipsis;
+      }
+
+      .event-duration {
+        color: #a0a0a0;
+      }
+
+      .event-location {
+        color: #a0a0a0;
+      }
+
+      .event-venue {
+        color: #a0a0a0;
+      }
+
+      .btn-read-more {
+        background-color: #c7b199;
+        color: #ffffff;
+        padding: 10px 20px;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+}
